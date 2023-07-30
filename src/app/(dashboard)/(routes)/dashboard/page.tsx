@@ -44,11 +44,9 @@ const page = async () => {
           </CardContent>
         </Card>
       </div>
-      {/* {
-        vehiclesData ?
-          <DataTable data={vehiclesData} columns={columns} />
-          : null
-      } */}
+      {vehiclesData ? (
+        <DataTable data={vehiclesData} columns={columns} />
+      ) : null}
     </div>
   );
 };
