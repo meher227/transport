@@ -20,12 +20,14 @@ import {
 } from "@/components/ui/form";
 import { Input } from "@/components/ui/input";
 import { loginValidator } from "@/lib/validators/login";
+import { useToast } from "@/hooks/use-toast";
 
 interface LoginFormProps extends React.HTMLAttributes<HTMLDivElement> {}
 
 export function LoginForm({ className, ...props }: LoginFormProps) {
   const [isLoading, setIsLoading] = React.useState<boolean>(false);
   const router = useRouter();
+  const { toast } = useToast();
 
   const form = useForm<z.infer<typeof loginValidator>>({
     resolver: zodResolver(loginValidator),
@@ -42,7 +44,16 @@ export function LoginForm({ className, ...props }: LoginFormProps) {
       setTimeout(() => {
         setIsLoading(false);
         router.push("/dashboard");
+        return toast({
+          description: "Your have been successfully logged in!",
+        });
       }, 2000);
+    } else {
+      return toast({
+        title: "There was a problem with username or password.",
+        description: "Something went wrong. Please try again.",
+        variant: "destructive",
+      });
     }
   }
 
