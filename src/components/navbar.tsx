@@ -7,9 +7,9 @@ const Navbar = async () => {
     <div className="flex items-center p-4">
       <MobileSidebar />
       <div className="flex w-full justify-end align-middle">
-        <div className="mr-4">
+        {/* <div className="mr-4">
           <ModeToggle />
-        </div>
+        </div> */}
         <div>
           <UserNav />
         </div>

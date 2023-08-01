@@ -72,12 +72,12 @@ export function DataTable<TData, TValue>({
       <DataTableToolbar table={table} />
       <div className="rounded-md border overflow-x-auto">
         <Table className="relative">
-          <TableHeader>
+          <TableHeader className="bg-primary">
             {table.getHeaderGroups().map((headerGroup) => (
               <TableRow key={headerGroup.id}>
                 {headerGroup.headers.map((header) => {
                   return (
-                    <TableHead key={header.id}>
+                    <TableHead className="text-white" key={header.id}>
                       {header.isPlaceholder
                         ? null
                         : flexRender(
