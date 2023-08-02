@@ -1,0 +1,100 @@
+[
+  {
+    "id": "1",
+    "user_type": "Administrator",
+    "role_description": "System Admin",
+    "created_by": "Admin",
+    "created_on": "04/10/2020 11:38:04"
+  },
+  {
+    "id": "1",
+    "user_type": "Supervisor",
+    "role_description": "test",
+    "created_by": "Admin",
+    "created_on": "04/10/2020 18:47:02"
+  },
+  {
+    "id": "1",
+    "user_type": "Employee",
+    "role_description": "test",
+    "created_by": "Admin",
+    "created_on": "09/12/2020 16:52:09"
+  },
+  {
+    "id": "1",
+    "user_type": "BOOKING",
+    "role_description": "BOOKING USER",
+    "created_by": "Admin",
+    "created_on": "25/03/2021 12:46:05"
+  },
+  {
+    "id": "1",
+    "user_type": "OPERATION",
+    "role_description": "Operation User",
+    "created_by": "Admin",
+    "created_on": "25/03/2021 12:46:17"
+  },
+  {
+    "id": "1",
+    "user_type": "Administrator",
+    "role_description": "System Admin",
+    "created_by": "Admin",
+    "created_on": "04/10/2020 11:38:04"
+  },
+  {
+    "id": "1",
+    "user_type": "Administrator",
+    "role_description": "System Admin",
+    "created_by": "Admin",
+    "created_on": "04/10/2020 11:38:04"
+  },
+  {
+    "id": "1",
+    "user_type": "Administrator",
+    "role_description": "System Admin",
+    "created_by": "Admin",
+    "created_on": "04/10/2020 11:38:04"
+  },
+  {
+    "id": "1",
+    "user_type": "Administrator",
+    "role_description": "System Admin",
+    "created_by": "Admin",
+    "created_on": "04/10/2020 11:38:04"
+  },
+  {
+    "id": "1",
+    "user_type": "Administrator",
+    "role_description": "System Admin",
+    "created_by": "Admin",
+    "created_on": "04/10/2020 11:38:04"
+  },
+  {
+    "id": "1",
+    "user_type": "Administrator",
+    "role_description": "System Admin",
+    "created_by": "Admin",
+    "created_on": "04/10/2020 11:38:04"
+  },
+  {
+    "id": "1",
+    "user_type": "Administrator",
+    "role_description": "System Admin",
+    "created_by": "Admin",
+    "created_on": "04/10/2020 11:38:04"
+  },
+  {
+    "id": "1",
+    "user_type": "Administrator",
+    "role_description": "System Admin",
+    "created_by": "Admin",
+    "created_on": "04/10/2020 11:38:04"
+  },
+  {
+    "id": "1",
+    "user_type": "Administrator",
+    "role_description": "System Admin",
+    "created_by": "Admin",
+    "created_on": "04/10/2020 11:38:04"
+  }
+]

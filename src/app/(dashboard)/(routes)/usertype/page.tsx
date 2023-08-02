@@ -1,12 +1,10 @@
 import { FC } from "react";
-import { DataTable } from "./components/data-table";
-import { columns } from "./components/columns";
-import tasksData from "./data/tasks.json";
+import { columns } from "@/app/(dashboard)/(routes)/usertype/table/columns";
+import { DataTable } from "@/app/(dashboard)/(routes)/usertype/table/data-table";
 import { Button } from "@/components/ui/button";
 import {
   Dialog,
   DialogContent,
-  DialogDescription,
   DialogFooter,
   DialogHeader,
   DialogTitle,
@@ -14,6 +12,7 @@ import {
 } from "@/components/ui/dialog";
 import { Label } from "@/components/ui/label";
 import { Input } from "@/components/ui/input";
+import userTypeData from "./data/userType.json";
 
 interface pageProps {}
 
@@ -52,7 +51,9 @@ const page: FC<pageProps> = () => {
           </DialogContent>
         </Dialog>
       </div>
-      <DataTable data={tasksData} columns={columns} />
+      {userTypeData ? (
+        <DataTable data={userTypeData} columns={columns} />
+      ) : null}
     </div>
   );
 };
