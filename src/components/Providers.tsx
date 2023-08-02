@@ -7,7 +7,7 @@ const Providers = ({ children }: { children: React.ReactNode }) => {
   const queryClient = new QueryClient();
 
   return (
-    <ThemeProvider attribute="class">
+    <ThemeProvider attribute="class" defaultTheme="light" enableSystem>
       <QueryClientProvider client={queryClient}>{children}</QueryClientProvider>
     </ThemeProvider>
   );
